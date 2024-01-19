@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.08), 0 4px 12px rgb(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 10px 0 10px;
+    
+}
+ 
+.catagerios{
+    font-size: 12px;
+    font-weight: 200;
+    padding: 0 10px 0 10px;
+}
+
+.catagerios a{
+text-decoration: none;
+color: black;
+}
+
+.serach{
+    border: 1px solid #cccc;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px;
+}
+.serach input{
+    border: none;
+    outline: none;
+    max-width: none;
+    font-size: 20px;
+}
+.serach svg{
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+}
+.blog{
+    font-size: 12px;
+    font-weight: 200;
+    padding: 0 10px 0 10px;
+}
+.blog a{
+    text-decoration: none;
+    color: black;
+}
+.About{
+    font-size: 12px;
+    font-weight: 200;
+    padding: 0 10px 0 10px;
+
+}
+.About a{
+    text-decoration: none;
+    color: black;
+}
+.login_button{
+    border: 1px solid #ccc;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.login_button .btn{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    
+}
+.registration{
+    border: 1px solid #ccc;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    background-color: black;
+    margin-right: 4px;
+    
+}
+.registration button{
+    background-color:black ;
+    border:none;
+    outline: none;
+    font-size: 15px;
+    color: white;
+
+}
+.global{
+
+}
